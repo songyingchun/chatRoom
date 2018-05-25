@@ -22,10 +22,5 @@
   "bugs": {
     "url": "https://github.com/songyingchun/chatRoom/issues"
   },
-  "homepage": "https://github.com/songyingchun/chatRoom#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "mime": "^2.3.1",
-    "socket.io": "^2.1.1"
-  }
+  "homepage": "https://github.com/songyingchun/chatRoom#readme"
 }
