@@ -5,7 +5,7 @@ var mime = require('mime');
 var cache = {};
 
 var chatServer = require('./lib/chat_server');
-chatServe.listen(server);
+chatServer.listen(server);
 
 console.log(mime.lookup);
 
