@@ -7,8 +7,6 @@ var cache = {};
 var chatServer = require('./lib/chat_server');
 chatServer.listen(server);
 
-console.log(mime.lookup);
-
 // 错误响应
 function send404(response) {
     response.writeHead(404, { 'Content-Type': 'text/plain' });

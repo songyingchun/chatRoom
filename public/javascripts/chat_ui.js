@@ -1,5 +1,5 @@
-var socketio = require('socket.io');
-var socket = socketio.connect();
+
+var socket = io('localhost:3000').connect();
 
 $(document).ready(function () {
     var chatApp = new Chat(socket);
@@ -48,7 +48,7 @@ $(document).ready(function () {
 
     $('#send-form').submit(function (params) {
         processUserInput(chatApp, socket);
-        return false; 
+        return false;
     });
 });
 
